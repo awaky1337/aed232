@@ -4082,7 +4082,7 @@
                                     local ResolvedVelocity = Configuration.ResolverValue
                                     local PredictionValue = ((AutoPrediction == true) and (BulletTravel / 1000)) or Prediction;
                             	
-                                    local Offsets = {X = 0.111, Y = 0.03}
+                                    local Offsets = {X = 0.120, Y = 0.033}
                                     local OffsetX = PredictionValue + Offsets.X
                                     local OffsetY = PredictionValue + Offsets.Y
                             
